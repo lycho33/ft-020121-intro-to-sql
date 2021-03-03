@@ -1,5 +1,6 @@
 def blue_aliens
     # return the names and colors of all the aliens that are 'blue'
+    "SELECT name FROM aliens WHERE color = 'blue';"
 end
 
 def old_aliens
